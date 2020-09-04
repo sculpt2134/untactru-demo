@@ -1,0 +1,109 @@
+html, body {
+	font-size: 1em;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+#header {
+	background-color: #43658b;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#header .prev {
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 10px;
+	color: #fff;
+}
+
+#header h1 {
+	float: left;
+	color: #fff;
+	font-size: 1em;
+}
+
+#content {
+	padding: 10px;
+}
+
+#content .filebox {
+	text-align: center;
+}
+
+#content .filebox input.file {
+	margin: 0 auto;
+	width: 70%;
+	height: 250px;
+	border: 3px dashed #ccc;
+	background: url(../img/iconfinder_id_card_job_seeker_employee_unemployee_work_2620518.png) no-repeat center center;
+}
+
+#content .certbox ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#content .certbox ul li {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#content .certbox ul li:hover {
+	background-color: #eee;
+}
+
+#content .certbox ul li img.icon {
+	float: left;
+	margin-right: 10px;
+}
+
+#content .certbox ul li span.title {
+	color: #000 !important;
+	font-weight: bold;
+}
+
+#content .certbox ul li span.paragraph {
+	color: #aaa;
+	display: block;
+	margin: 3px 0;
+}
+
+#content .percentagebox {
+	background-color: #eee;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+#content .socialbox {
+	background-color: #eee;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+#content .questionbox {
+	background-color: #eee;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+#footer {
+	padding: 10px;
+	text-align: center;
+}
